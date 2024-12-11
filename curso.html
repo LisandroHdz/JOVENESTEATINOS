@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jóvenes de Hoy</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="t.png" alt="Jóvenes de Hoy">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">QUIÉNES SOMOS</a></li>
+                <li><a href="#actividades">ACTIVIDADES</a></li>
+                <li><a href="../index.html">INICIO</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="#"><img src="i.png" alt="Instagram"></a>
+            <a href="#"><img src="f.png" alt="Facebook"></a>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Guía de Episodios</h1>
+            <p>Descubre los valores que nos unen, haz nuevos amigos y vive experiencias que marcarán tu vida. A través de actividades dinámicas y momentos de reflexión, aprenderás cómo formar parte de esta gran comunidad.</p>
+        </section>
+        <section class="courses">
+            <div class="course">
+                <h2>Curso Intro</h2>
+                <p>Si estás comenzando tu camino en el grupo juvenil, este curso es para ti.</p>
+                <button onclick="showEpisodes('intro')">Episodio 1</button>
+                <button onclick="showEpisodes('intro')">Episodio 2</button>
+                <button onclick="showEpisodes('intro')">Episodio 3</button>
+            </div>
+            <div class="course">
+                <h2>Curso Avanzado</h2>
+                <p>Aprende a leer, interpretar y aplicar las enseñanzas de la Biblia en tu día a día.</p>
+                <button onclick="showEpisodes('advanced')">Episodio 1</button>
+                <button onclick="showEpisodes('advanced')">Episodio 2</button>
+                <button onclick="showEpisodes('advanced')">Episodio 3</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
